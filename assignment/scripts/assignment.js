@@ -19,6 +19,9 @@ myNumber.push ( 15 );
 console.log ( myNumber );
 
 // 6. Write a `for` loop that console logs each value in the array
+for ( let i = 0; i <= myValue; i++ ) {
+  console.log ( 'for loop, i:', myNumber );
+}
 
 // STRETCH GOALS
 
