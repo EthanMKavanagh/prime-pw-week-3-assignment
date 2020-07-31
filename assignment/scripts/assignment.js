@@ -26,10 +26,24 @@ for ( let i = 0; i < myNumber.length; i++ ) {
 // STRETCH GOALS
 
 // 7. Write a `while` loop that will increase the value of 'myValue' by 1 until its value is 10
+const max = 10;
+while ( myValue < max ) {
+  console.log ( 'while loop, i:', myValue );
+  myValue++;
+}
 
 // 8. Change the second value in the array from 6 to 20, then console log the array
 
+
 // 9. Below, rewrite the `for` loop from question 6 to a `for of` loop
+
 
 // 10. Reassign the value of `myValue` to 3. Then, write a `for` loop that console logs each value in the array,
 // and if the value of the array at `i` matches the value of 'myValue', also console log 'Hurray!'
+myValue = 3;
+for ( let i = 0; i < myNumber.length; i++ ) {
+  console.log( 'for loop, i:', myNumber[ i ] );
+  if ( myNumber[ i ] === myValue ){
+    console.log ( 'Hurray!' );
+  }
+}
