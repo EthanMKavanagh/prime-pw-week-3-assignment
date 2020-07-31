@@ -8,10 +8,15 @@ let myValue = 0;
 console.log ( myValue );
 
 // 3. Console log the value of the array at index 2
+console.log ( myNumber[ 2 ] );
 
 // 4. Remove the last item in the array, then console log the array
+myNumber.pop()
+console.log ( myNumber );
 
 // 5. Add the value of number 15 to the end of the array
+myNumber.push ( 15 );
+console.log ( myNumber );
 
 // 6. Write a `for` loop that console logs each value in the array
 
