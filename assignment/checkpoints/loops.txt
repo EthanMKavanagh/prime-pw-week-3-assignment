@@ -1,11 +1,16 @@
 # Type your responses on a new line
 
 # 1 - Describe the benefit(s) of using loops in your code.
+Loops allow the same code to be repeated instead of needing to write the same code over and over again.
 
 # 2 - What kind of loop would you want to use if you wanted to do something a certain number of times: for or while?
+For
 
 # 3 - What kind of loop would you want to use if you wanted to do something as long as a condition were true: for or while?
+While
 
 # 4 - What is wrong with the argument of this for loop: `for(i = 0; i < array.length; i++)`?
+There needs to be a 'let' before 'i = 0'.
 
 # 5 - What does it mean if you get a console error like this: "Uncaught ReferenceError: i is not defined"?
+This means 'i' is defined within a code block, and can't be used outside of that code block.
