@@ -9,13 +9,13 @@ NAME.length
 NAME.push ();
 
 # 3 - Add a new value to the beginning of an array?
-NAME.unshift ();
+NAME.unshift();
 
 # 4 - Remove the last item in an array?
-NAME.pop ()
+NAME.pop()
 
 # 5 - Remove the first item in an array?
-NAME.shift ()
+NAME.shift()
 
 # 6 - Create a new, empty array and assign it to a variable?
 let emptyArray = [];
